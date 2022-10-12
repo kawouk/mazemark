@@ -1,0 +1,214 @@
+.about-protect-container{
+    margin-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.about-protect-col-content{
+    float: left;
+    text-align: left;
+}
+.about-protect-card-khara{
+    height: 105%
+}
+.dark{
+    background-color: #000219;
+}
+.light{
+    background-color: #e21f36;
+}
+.about-protect-card-col1{
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    margin-bottom: 4%;
+    transition: all .3s ease-in-out;
+}
+.about-protect-card-col2{
+    margin-top: 7%;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    transition: all .3s ease-in-out
+}
+.about-protect-card-icon{
+    color: #fff;
+    font-size: 2.5em;  
+}
+.about-protect-card-heading{
+    color: white;
+    font-size: 1.2em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.about-protect-card-description{
+    color: #fff;
+    font-size: .9em;
+}
+.about-protect-card-col1:hover{
+    transform: translateY(-5%);
+;
+}
+.about-protect-card-col2:hover{
+    transform: translateY(-5%);
+    
+}
+.about-protect-card-col1::before{
+    content:'';
+    position: absolute;
+    background: linear-gradient(to right, transparent, #e21f36);
+    width: 0%;
+    height: .15em;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-col1:hover::before{
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    width: 105%;
+}
+.about-protect-card-col2::before{
+    content:'';
+    position: absolute;
+    background: linear-gradient(to right, transparent, #e21f36);
+    width: 0%;
+    height: .15em;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  
+}
+.about-protect-card-col2:hover::before{
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    width: 105%;
+}
+.about-protect-card-col1::after{
+    content:'';
+    position: absolute;
+    background: linear-gradient(to left, transparent, #e21f36);
+    width: 0%;
+    height: .15em;
+    bottom: 0%;
+    right: 0%;
+    opacity: 0;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-col1:hover::after{
+    bottom: 0%;
+    right: 0%;
+    opacity: 1;
+    width: 105%;
+}
+.about-protect-card-col2::after{
+    content:'';
+    position: absolute;
+    background: linear-gradient(to left, transparent, #e21f36);
+    width: 0%;
+    height: .15em;
+    bottom: 0%;
+    right: 0%;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-col2:hover::after{
+    bottom: 0%;
+    right: 0%;
+    opacity: 1;
+    width: 105%;
+    opacity: 1;
+}
+.about-protect-card-container1::before{
+    content:'';
+    position: absolute;
+    background: linear-gradient(  #e21f36, transparent);
+    width: .15em;
+    height: 0%;
+    bottom: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-container1:hover::before{
+    bottom: 0%;
+    left: 0%;
+    opacity: 1;
+    height: 110%;
+}
+.about-protect-card-container2::before{
+    content:'';
+    position: absolute;
+    background: linear-gradient( #e21f36, transparent);
+    width: .15em;
+    height: 0%;
+    bottom: -55%;
+    left: 0%;
+    opacity: 0;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-container2:hover::before{
+    bottom: 0%;
+    left: 0%;
+    opacity: 1;
+    height: 110%;
+}
+.about-protect-card-container1::after{
+    content:'';
+    position: absolute;
+    background: linear-gradient( transparent, #e21f36);
+    width: .15em;
+    height: 0%;
+    top: -55%;
+    right: 0%;
+    opacity: 0;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-container1:hover::after{
+    top: 0%;
+    right: -.4%;
+    opacity: 1;
+    height: 110%;
+
+}
+.about-protect-card-container2::after{
+    content:'';
+    position: absolute;
+    background: linear-gradient( transparent, #e21f36);
+    width: .15em;
+    height: 0%;
+    top: -55%;
+    right: 0%;
+    transition: all .5s ease;
+  
+}
+.about-protect-card-container2:hover::after{
+    top: 0%;
+    right: 0%;
+    opacity: 1;
+    height: 110%;
+    opacity: 1;
+}
+@media screen and (max-width:575px){
+    .about-protect-card-col1{
+        margin-left: 0em ;
+        margin-right: 0em ;
+        margin-bottom: 1em;
+    }
+    .about-protect-card-col2{
+        margin-left: 0em ;
+        margin-right: 0em ;
+        margin-bottom: 1em;
+    }
+}

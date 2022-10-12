@@ -1,0 +1,126 @@
+
+.olympus-nav-bar{
+    background-image: linear-gradient(#960605,#000);
+    border: 1px solid #000 !important;
+    height: 5.5em !important; 
+}
+.olympus-header-container{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+
+}
+.olympus-nav-brand{
+    width: 5em;
+    height: 4.5em;
+    background-image: url('https://iaterial.sirv.com/Olympus/Olympus-Shield-logo-white.png');
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+
+}
+.me-auto{
+    margin-left: 25%;
+
+}
+.nav-link{
+    margin-top: .5em;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #960605 !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .olympus-nav-bar{
+        height: initial !important;
+    }
+    .me-auto{
+        margin-left: 38%;
+    
+    }
+    .collapse-nav{
+        margin-left: 70%;
+    }
+
+}
+@media screen and (max-width: 819px){
+    .collapse-nav{
+        margin-left: 65%;
+    }
+}
+@media screen and (max-width: 670px){
+    .collapse-nav{
+        margin-left: 60%;
+    }
+}
+@media screen and (max-width: 569px){
+    .collapse-nav{
+        margin-left: 55%;
+    }
+}
+@media screen and (max-width: 495px){
+    .collapse-nav{
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width: 431px){
+    .collapse-nav{
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 394px){
+    .collapse-nav{
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 358px){
+    .collapse-nav{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 329px){
+    .collapse-nav{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 304px){
+    .collapse-nav{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 283px){
+    .collapse-nav{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 265px){
+    .collapse-nav{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 250px){
+    .collapse-nav{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 250px){
+    .collapse-nav{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 224px){
+    .collapse-nav{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 213px){
+    .collapse-nav{
+        margin-left: 72%;
+    }
+}
+@media screen and (max-width: 187px){
+    .collapse-nav{
+        margin-left: 68%;
+    }
+}
