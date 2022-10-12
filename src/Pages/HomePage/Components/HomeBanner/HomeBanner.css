@@ -1,0 +1,204 @@
+@keyframes moving-bg {
+    0%{
+        background-position-x: 0% 
+    }
+    100%{
+        background-position-x: 2000%;
+    }
+}
+@keyframes slide-right {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes slide-left {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes slide-left-phone {
+    0%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes slide-up {
+    0%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0%) ;
+    }
+}
+.home-banner-container{
+    background-image: url('https://iaterial.sirv.com/Marketing%20section/device-presentation-background-image.jpg');
+    background-size: 350%;
+    background-repeat: repeat-x;
+    animation-name: moving-bg;
+    animation-duration: 900s;
+    animation-fill-mode: forwards ;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.home-banner-title-row{
+    color: #fff;
+    text-align: center;
+}
+.home-banner-title{
+    font-size: 5em;
+    padding-top: 3em;
+    font-weight: lighter;
+}
+.home-banner-title-span{
+    font-size: 1.5em ;
+    font-weight: lighter;
+    opacity: .7;
+}
+.home-banner-desktop-col{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: -3%;
+    margin-bottom: 5%;
+}
+.home-banner-laptop-container{
+    margin-top: 22%;
+    background-image: url('https://iaterial.sirv.com/egety-maze-mark/device_presentation_laptop_retail.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    animation-name: slide-right;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+.home-banner-desktop-container{
+    margin-top: 5%;
+    margin-left: -27%;
+    background-image: url('https://iaterial.sirv.com/egety-maze-mark/device_presentation_desktop_NFT.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 170%;
+    width: 120%;
+    z-index: 0;
+    animation-name: slide-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+.home-banner-tablet-container{
+    margin-top: 24%;
+    margin-left: -15%;
+    background-image: url('https://iaterial.sirv.com/egety-maze-mark/device_presentation_tablet_restaurant.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 35%;
+    z-index: 1;
+    animation-name: slide-left;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+.home-banner-phone-container{
+    margin-top: 29%;
+    margin-left: 0;
+    background-image: url('https://iaterial.sirv.com/egety-maze-mark/device_presentation_phone-market%20study.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 20%;
+    z-index: 1;
+    animation-name: slide-left-phone;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+
+}
+
+@media screen and (max-width: 991px) {
+    .home-banner-container{
+        margin-top: 5rem;
+    }
+    .home-banner-title{
+        font-size: 4em;
+    }
+    .home-banner-title-span{
+        font-size: 1.2em ;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .home-banner-title{
+        font-size: 3em;
+    }
+    .home-banner-title-span{
+        font-size: 1em ;
+    }
+}
+@media screen and (max-width: 576px) {
+    
+    .home-banner-title{
+        font-size: 2.2em;
+    }
+    .home-banner-title-span{
+        font-size: .9em ;
+    }
+
+}
+@media screen and (max-width: 405px) {
+    .home-banner-title{
+        font-size: 2em;
+    }
+    .home-banner-title-span{
+        font-size: .7em ;
+    }
+}
+@media screen and (max-width: 386px) {
+    .home-banner-title{
+        font-size: 1.8em;
+    }
+    .home-banner-title-span{
+        font-size: .6em ;
+    }
+
+}
+@media screen and (max-width: 370px) {
+    .home-banner-title{
+        font-size: 1.8em;
+    }
+    .home-banner-title-span{
+        font-size: .6em ;
+    }
+
+}
+@media screen and (max-width: 349px) {
+    .home-banner-title{
+        font-size: 1.5em;
+
+    }
+    .home-banner-title-span{
+        font-size: .5em ;
+    }
+
+}
+@media screen and (max-width: 280px) {
+    .home-banner-title{
+        font-size: 1.2em;
+
+    }
+    .home-banner-title-span{
+        font-size: .5em ;
+    }
+
+}

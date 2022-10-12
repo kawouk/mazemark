@@ -1,0 +1,35 @@
+.services-container{
+    
+    background-image: linear-gradient( #1674ea
+ , #000);
+    z-index: -1;
+}
+.services-row{
+    padding: 8rem 0 0rem 0;
+}
+.services-row2{
+    padding-bottom: 5rem;
+}
+.service-type-col{
+    padding: 1em 1em 1em 1em;
+}
+.services-type-container{
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+.services-type-icon{
+    font-size: 3.5em;
+    margin-bottom: .2em;
+    color: #fff;
+    opacity: 0.5;
+}
+.services-type-heading{
+    color: #ce74a4;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+
+}
+.services-type-description{
+    color: #fff
+;
+}
